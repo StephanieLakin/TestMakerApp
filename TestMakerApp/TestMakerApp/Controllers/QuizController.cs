@@ -72,10 +72,10 @@ namespace TestMakerApp.Controllers
     }
     #endregion
 
-    #region Attrivute-based routing methods
+    #region Attribute-based routing methods
     ///<summary>
     ///GET: api/quiz/latest
-    ///Retrieves the {Num> latest quizzes
+    ///Retrieves the {Num} latest quizzes
     ///</summary>
-
+#endregion
 }
