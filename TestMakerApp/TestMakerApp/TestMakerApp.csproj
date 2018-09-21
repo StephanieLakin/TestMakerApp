@@ -17,14 +17,10 @@
 
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
-    <Compile Remove="NewFolder\**" />
     <Compile Remove="obj\**" />
     <Content Remove="ClientApp\**" />
-    <Content Remove="NewFolder\**" />
     <Content Remove="obj\**" />
-    <EmbeddedResource Remove="NewFolder\**" />
     <EmbeddedResource Remove="obj\**" />
-    <None Remove="NewFolder\**" />
     <None Remove="obj\**" />
   </ItemGroup>
 
